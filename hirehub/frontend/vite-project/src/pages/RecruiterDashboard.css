@@ -1,0 +1,38 @@
+.recruiter-page {
+  padding: 40px 10%;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.job-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  display: grid;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.job-form input,
+.job-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.job-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.posted-job {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

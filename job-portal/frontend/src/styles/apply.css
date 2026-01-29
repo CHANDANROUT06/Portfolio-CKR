@@ -1,0 +1,17 @@
+.apply-container {
+  padding: 40px;
+}
+
+.apply-container button {
+  background: #0a66c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.apply-container button:hover {
+  background: #004182;
+}

@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #0a66c2;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.login-btn {
+  background: white;
+  color: #0a66c2;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+  padding: 60px;
+  background: white;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 12px;
+  margin: 5px;
+}
+
+.search-bar button {
+  padding: 12px 25px;
+  background: #0a66c2;
+  color: white;
+  border: none;
+}
+
+/* JOBS */
+.jobs-container {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.job-card img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.apply-btn {
+  margin-left: auto;
+  padding: 10px 20px;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

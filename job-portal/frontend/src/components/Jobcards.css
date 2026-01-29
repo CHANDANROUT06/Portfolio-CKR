@@ -1,0 +1,29 @@
+.job-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.job-card h3 {
+  margin-bottom: 6px;
+}
+
+.company {
+  font-weight: 500;
+}
+
+.location {
+  color: #64748b;
+}
+
+.view-btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+.job-card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.job-card h3 {
+  color: #0a66c2;
+}
+
+.job-card button {
+  margin-top: 10px;
+  background: #0a66c2;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+
