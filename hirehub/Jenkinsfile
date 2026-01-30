@@ -2,11 +2,9 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/CHANDANROUT06/hirehub.git'
+                checkout scm
             }
         }
 
@@ -20,15 +18,6 @@ pipeline {
             steps {
                 sh 'docker compose up -d'
             }
-        }
-    }
-
-    post {
-        success {
-            echo 'HireHub deployed successfully 🚀'
-        }
-        failure {
-            echo 'Pipeline failed ❌'
         }
     }
 }
